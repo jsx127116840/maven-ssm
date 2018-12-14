@@ -16,10 +16,7 @@ public class UserAction {
 		@Autowired
 		private UserMapper userService;
 		
-		
-		
-		
-		@RequestMapping("/queryAllll")
+		@RequestMapping("/queryAll")
 
 		public String queryAll(){
 			List<User> list=userService.selectAll();

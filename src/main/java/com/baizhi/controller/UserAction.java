@@ -11,6 +11,8 @@ import java.util.List;
 @Controller
 @RequestMapping("/test")
 public class UserAction {
+  
+    
 		@Autowired
 		private UserMapper userService;
 		

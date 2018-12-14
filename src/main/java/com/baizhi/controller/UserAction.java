@@ -19,7 +19,7 @@ public class UserAction {
 		
 		
 		
-		@RequestMapping("/queryAll")
+		@RequestMapping("/queryAllll")
 
 		public String queryAll(){
 			List<User> list=userService.selectAll();

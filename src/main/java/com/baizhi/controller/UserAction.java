@@ -19,6 +19,7 @@ public class UserAction {
 		@RequestMapping("/queryAll")
 
 		public String queryAll(){
+            System.out.println("aaa");
 			List<User> list=userService.selectAll();
 			return "redirect:/index.jsp";
 		}
